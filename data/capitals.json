@@ -1,0 +1,702 @@
+{
+  "FJ": {
+    "zh": "苏瓦",
+    "en": "Suva"
+  },
+  "TZ": {
+    "zh": "多多马",
+    "en": "Dodoma"
+  },
+  "EH": {
+    "zh": "阿尤恩",
+    "en": "Laayoune"
+  },
+  "CA": {
+    "zh": "渥太华",
+    "en": "Ottawa"
+  },
+  "US": {
+    "zh": "华盛顿",
+    "en": "Washington, D.C."
+  },
+  "KZ": {
+    "zh": "阿斯塔纳",
+    "en": "Astana"
+  },
+  "UZ": {
+    "zh": "塔什干",
+    "en": "Tashkent"
+  },
+  "PG": {
+    "zh": "莫尔兹比港",
+    "en": "Port Moresby"
+  },
+  "ID": {
+    "zh": "雅加达",
+    "en": "Jakarta"
+  },
+  "AR": {
+    "zh": "布宜诺斯艾利斯",
+    "en": "Buenos Aires"
+  },
+  "CL": {
+    "zh": "圣地亚哥",
+    "en": "Santiago"
+  },
+  "CD": {
+    "zh": "金沙萨",
+    "en": "Kinshasa"
+  },
+  "SO": {
+    "zh": "摩加迪沙",
+    "en": "Mogadishu"
+  },
+  "KE": {
+    "zh": "内罗毕",
+    "en": "Nairobi"
+  },
+  "SD": {
+    "zh": "喀土穆",
+    "en": "Khartoum"
+  },
+  "TD": {
+    "zh": "恩贾梅纳",
+    "en": "N'Djamena"
+  },
+  "HT": {
+    "zh": "太子港",
+    "en": "Port-au-Prince"
+  },
+  "DO": {
+    "zh": "圣多明各",
+    "en": "Santo Domingo"
+  },
+  "RU": {
+    "zh": "莫斯科",
+    "en": "Moscow"
+  },
+  "BS": {
+    "zh": "",
+    "en": ""
+  },
+  "FK": {
+    "zh": "斯坦利",
+    "en": "Stanley"
+  },
+  "NO": {
+    "zh": "奥斯陆",
+    "en": "Oslo"
+  },
+  "GL": {
+    "zh": "努克",
+    "en": "Nuuk"
+  },
+  "TF": {
+    "zh": "",
+    "en": ""
+  },
+  "TL": {
+    "zh": "帝力",
+    "en": "Dili"
+  },
+  "ZA": {
+    "zh": "比勒陀利亚",
+    "en": "Pretoria"
+  },
+  "LS": {
+    "zh": "马塞卢",
+    "en": "Maseru"
+  },
+  "MX": {
+    "zh": "墨西哥城",
+    "en": "Mexico City"
+  },
+  "UY": {
+    "zh": "蒙得维的亚",
+    "en": "Montevideo"
+  },
+  "BR": {
+    "zh": "巴西利亚",
+    "en": "Brasília"
+  },
+  "BO": {
+    "zh": "苏克雷",
+    "en": "Sucre"
+  },
+  "PE": {
+    "zh": "利马",
+    "en": "Lima"
+  },
+  "CO": {
+    "zh": "波哥大",
+    "en": "Bogotá"
+  },
+  "PA": {
+    "zh": "巴拿马城",
+    "en": "Panama City"
+  },
+  "CR": {
+    "zh": "圣何塞",
+    "en": "San José"
+  },
+  "NI": {
+    "zh": "马那瓜",
+    "en": "Managua"
+  },
+  "HN": {
+    "zh": "特古西加尔巴",
+    "en": "Tegucigalpa"
+  },
+  "SV": {
+    "zh": "圣萨尔瓦多",
+    "en": "San Salvador"
+  },
+  "GT": {
+    "zh": "危地马拉城",
+    "en": "Guatemala City"
+  },
+  "BZ": {
+    "zh": "贝尔莫潘",
+    "en": "Belmopan"
+  },
+  "VE": {
+    "zh": "加拉加斯",
+    "en": "Caracas"
+  },
+  "GY": {
+    "zh": "乔治敦",
+    "en": "Georgetown"
+  },
+  "SR": {
+    "zh": "帕拉马里博",
+    "en": "Paramaribo"
+  },
+  "FR": {
+    "zh": "巴黎",
+    "en": "Paris"
+  },
+  "EC": {
+    "zh": "基多",
+    "en": "Quito"
+  },
+  "PR": {
+    "zh": "圣胡安",
+    "en": "San Juan"
+  },
+  "JM": {
+    "zh": "金斯敦",
+    "en": "Kingston"
+  },
+  "CU": {
+    "zh": "哈瓦那",
+    "en": "Havana"
+  },
+  "ZW": {
+    "zh": "哈拉雷",
+    "en": "Harare"
+  },
+  "BW": {
+    "zh": "哈博罗内",
+    "en": "Gaborone"
+  },
+  "NA": {
+    "zh": "温得和克",
+    "en": "Windhoek"
+  },
+  "SN": {
+    "zh": "达喀尔",
+    "en": "Dakar"
+  },
+  "ML": {
+    "zh": "巴马科",
+    "en": "Bamako"
+  },
+  "MR": {
+    "zh": "努瓦克肖特",
+    "en": "Nouakchott"
+  },
+  "BJ": {
+    "zh": "波多诺伏",
+    "en": "Porto-Novo"
+  },
+  "NE": {
+    "zh": "尼亚美",
+    "en": "Niamey"
+  },
+  "NG": {
+    "zh": "阿布贾",
+    "en": "Abuja"
+  },
+  "CM": {
+    "zh": "雅温得",
+    "en": "Yaoundé"
+  },
+  "TG": {
+    "zh": "洛美",
+    "en": "Lomé"
+  },
+  "GH": {
+    "zh": "阿克拉",
+    "en": "Accra"
+  },
+  "CI": {
+    "zh": "亚穆苏克罗",
+    "en": "Yamoussoukro"
+  },
+  "GN": {
+    "zh": "科纳克里",
+    "en": "Conakry"
+  },
+  "GW": {
+    "zh": "比绍",
+    "en": "Bissau"
+  },
+  "LR": {
+    "zh": "蒙罗维亚",
+    "en": "Monrovia"
+  },
+  "SL": {
+    "zh": "弗里敦",
+    "en": "Freetown"
+  },
+  "BF": {
+    "zh": "瓦加杜古",
+    "en": "Ouagadougou"
+  },
+  "CF": {
+    "zh": "班吉",
+    "en": "Bangui"
+  },
+  "CG": {
+    "zh": "布拉柴维尔",
+    "en": "Brazzaville"
+  },
+  "GA": {
+    "zh": "利伯维尔",
+    "en": "Libreville"
+  },
+  "GQ": {
+    "zh": "马拉博",
+    "en": "Malabo"
+  },
+  "ZM": {
+    "zh": "卢萨卡",
+    "en": "Lusaka"
+  },
+  "MW": {
+    "zh": "利隆圭",
+    "en": "Lilongwe"
+  },
+  "MZ": {
+    "zh": "马普托",
+    "en": "Maputo"
+  },
+  "SZ": {
+    "zh": "姆巴巴内",
+    "en": "Mbabane"
+  },
+  "AO": {
+    "zh": "罗安达",
+    "en": "Luanda"
+  },
+  "BI": {
+    "zh": "布琼布拉",
+    "en": "Gitega"
+  },
+  "IL": {
+    "zh": "耶路撒冷",
+    "en": "Jerusalem"
+  },
+  "LB": {
+    "zh": "贝鲁特",
+    "en": "Beirut"
+  },
+  "MG": {
+    "zh": "塔那那利佛",
+    "en": "Antananarivo"
+  },
+  "PS": {
+    "zh": "拉马拉",
+    "en": "Ramallah"
+  },
+  "GM": {
+    "zh": "班珠尔",
+    "en": "Banjul"
+  },
+  "TN": {
+    "zh": "突尼斯",
+    "en": "Tunis"
+  },
+  "DZ": {
+    "zh": "阿尔及尔",
+    "en": "Algiers"
+  },
+  "JO": {
+    "zh": "安曼",
+    "en": "Amman"
+  },
+  "AE": {
+    "zh": "阿布扎比",
+    "en": "Abu Dhabi"
+  },
+  "QA": {
+    "zh": "多哈",
+    "en": "Doha"
+  },
+  "KW": {
+    "zh": "科威特城",
+    "en": "Kuwait City"
+  },
+  "IQ": {
+    "zh": "巴格达",
+    "en": "Baghdad"
+  },
+  "OM": {
+    "zh": "马斯喀特",
+    "en": "Muscat"
+  },
+  "VU": {
+    "zh": "维拉港",
+    "en": "Port Vila"
+  },
+  "KH": {
+    "zh": "金边",
+    "en": "Phnom Penh"
+  },
+  "TH": {
+    "zh": "曼谷",
+    "en": "Bangkok"
+  },
+  "LA": {
+    "zh": "万象",
+    "en": "Vientiane"
+  },
+  "MM": {
+    "zh": "内比都",
+    "en": "Naypyidaw"
+  },
+  "VN": {
+    "zh": "河内",
+    "en": "Hanoi"
+  },
+  "KP": {
+    "zh": "平壤",
+    "en": "Pyongyang"
+  },
+  "KR": {
+    "zh": "首尔",
+    "en": "Seoul"
+  },
+  "MN": {
+    "zh": "乌兰巴托",
+    "en": "Ulaanbaatar"
+  },
+  "IN": {
+    "zh": "新德里",
+    "en": "New Delhi"
+  },
+  "BD": {
+    "zh": "达卡",
+    "en": "Dhaka"
+  },
+  "BT": {
+    "zh": "廷布",
+    "en": "Thimphu"
+  },
+  "NP": {
+    "zh": "加德满都",
+    "en": "Kathmandu"
+  },
+  "PK": {
+    "zh": "伊斯兰堡",
+    "en": "Islamabad"
+  },
+  "AF": {
+    "zh": "喀布尔",
+    "en": "Kabul"
+  },
+  "TJ": {
+    "zh": "杜尚别",
+    "en": "Dushanbe"
+  },
+  "KG": {
+    "zh": "比什凯克",
+    "en": "Bishkek"
+  },
+  "TM": {
+    "zh": "阿什哈巴德",
+    "en": "Ashgabat"
+  },
+  "IR": {
+    "zh": "德黑兰",
+    "en": "Tehran"
+  },
+  "SY": {
+    "zh": "大马士革",
+    "en": "Damascus"
+  },
+  "AM": {
+    "zh": "埃里温",
+    "en": "Yerevan"
+  },
+  "SE": {
+    "zh": "斯德哥尔摩",
+    "en": "Stockholm"
+  },
+  "BY": {
+    "zh": "明斯克",
+    "en": "Minsk"
+  },
+  "UA": {
+    "zh": "基辅",
+    "en": "Kyiv"
+  },
+  "PL": {
+    "zh": "华沙",
+    "en": "Warsaw"
+  },
+  "AT": {
+    "zh": "维也纳",
+    "en": "Vienna"
+  },
+  "HU": {
+    "zh": "布达佩斯",
+    "en": "Budapest"
+  },
+  "MD": {
+    "zh": "基希讷乌",
+    "en": "Chișinău"
+  },
+  "RO": {
+    "zh": "布加勒斯特",
+    "en": "Bucharest"
+  },
+  "LT": {
+    "zh": "维尔纽斯",
+    "en": "Vilnius"
+  },
+  "LV": {
+    "zh": "里加",
+    "en": "Riga"
+  },
+  "EE": {
+    "zh": "塔林",
+    "en": "Tallinn"
+  },
+  "DE": {
+    "zh": "柏林",
+    "en": "Berlin"
+  },
+  "BG": {
+    "zh": "索非亚",
+    "en": "Sofia"
+  },
+  "GR": {
+    "zh": "雅典",
+    "en": "Athens"
+  },
+  "TR": {
+    "zh": "安卡拉",
+    "en": "Ankara"
+  },
+  "AL": {
+    "zh": "地拉那",
+    "en": "Tirana"
+  },
+  "HR": {
+    "zh": "萨格勒布",
+    "en": "Zagreb"
+  },
+  "CH": {
+    "zh": "伯尔尼",
+    "en": "Bern"
+  },
+  "LU": {
+    "zh": "卢森堡市",
+    "en": "Luxembourg City"
+  },
+  "BE": {
+    "zh": "布鲁塞尔",
+    "en": "Brussels"
+  },
+  "NL": {
+    "zh": "阿姆斯特丹",
+    "en": "Amsterdam"
+  },
+  "PT": {
+    "zh": "里斯本",
+    "en": "Lisbon"
+  },
+  "ES": {
+    "zh": "马德里",
+    "en": "Madrid"
+  },
+  "IE": {
+    "zh": "都柏林",
+    "en": "Dublin"
+  },
+  "NC": {
+    "zh": "努美阿",
+    "en": "Nouméa"
+  },
+  "SB": {
+    "zh": "霍尼亚拉",
+    "en": "Honiara"
+  },
+  "NZ": {
+    "zh": "惠灵顿",
+    "en": "Wellington"
+  },
+  "AU": {
+    "zh": "堪培拉",
+    "en": "Canberra"
+  },
+  "LK": {
+    "zh": "科伦坡",
+    "en": "Sri Jayawardenepura Kotte"
+  },
+  "CN": {
+    "zh": "北京",
+    "en": "Beijing"
+  },
+  "IT": {
+    "zh": "罗马",
+    "en": "Rome"
+  },
+  "DK": {
+    "zh": "哥本哈根",
+    "en": "Copenhagen"
+  },
+  "GB": {
+    "zh": "伦敦",
+    "en": "London"
+  },
+  "IS": {
+    "zh": "雷克雅未克",
+    "en": "Reykjavik"
+  },
+  "AZ": {
+    "zh": "巴库",
+    "en": "Baku"
+  },
+  "GE": {
+    "zh": "第比利斯",
+    "en": "Tbilisi"
+  },
+  "PH": {
+    "zh": "马尼拉",
+    "en": "Manila"
+  },
+  "MY": {
+    "zh": "吉隆坡",
+    "en": "Kuala Lumpur"
+  },
+  "BN": {
+    "zh": "斯里巴加湾",
+    "en": "Bandar Seri Begawan"
+  },
+  "SI": {
+    "zh": "卢布尔雅那",
+    "en": "Ljubljana"
+  },
+  "FI": {
+    "zh": "赫尔辛基",
+    "en": "Helsinki"
+  },
+  "SK": {
+    "zh": "布拉迪斯拉发",
+    "en": "Bratislava"
+  },
+  "CZ": {
+    "zh": "布拉格",
+    "en": "Prague"
+  },
+  "ER": {
+    "zh": "阿斯马拉",
+    "en": "Asmara"
+  },
+  "JP": {
+    "zh": "东京",
+    "en": "Tokyo"
+  },
+  "PY": {
+    "zh": "亚松森",
+    "en": "Asunción"
+  },
+  "YE": {
+    "zh": "萨那",
+    "en": "Sana'a"
+  },
+  "SA": {
+    "zh": "利雅得",
+    "en": "Riyadh"
+  },
+  "AQ": {
+    "zh": "",
+    "en": ""
+  },
+  "-99": {
+    "zh": "",
+    "en": ""
+  },
+  "CY": {
+    "zh": "尼科西亚",
+    "en": "Nicosia"
+  },
+  "MA": {
+    "zh": "拉巴特",
+    "en": "Rabat"
+  },
+  "EG": {
+    "zh": "开罗",
+    "en": "Cairo"
+  },
+  "LY": {
+    "zh": "的黎波里",
+    "en": "Tripoli"
+  },
+  "ET": {
+    "zh": "亚的斯亚贝巴",
+    "en": "Addis Ababa"
+  },
+  "DJ": {
+    "zh": "吉布提",
+    "en": "Djibouti"
+  },
+  "UG": {
+    "zh": "坎帕拉",
+    "en": "Kampala"
+  },
+  "RW": {
+    "zh": "基加利",
+    "en": "Kigali"
+  },
+  "BA": {
+    "zh": "萨拉热窝",
+    "en": "Sarajevo"
+  },
+  "MK": {
+    "zh": "斯科普里",
+    "en": "Skopje"
+  },
+  "RS": {
+    "zh": "贝尔格莱德",
+    "en": "Belgrade"
+  },
+  "ME": {
+    "zh": "波德戈里察",
+    "en": "Podgorica"
+  },
+  "XK": {
+    "zh": "普里什蒂纳",
+    "en": "Pristina"
+  },
+  "TT": {
+    "zh": "西班牙港",
+    "en": "Port of Spain"
+  },
+  "SS": {
+    "zh": "朱巴",
+    "en": "Juba"
+  }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>世界地图挑战 | World Map Challenge</title>
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== Top Bar ========== -->
+<header id="top-bar">
+  <div class="bar-left">
+    <h1 class="logo">🌍 <span data-i18n="title">世界地图挑战</span></h1>
+  </div>
+  <div class="bar-center">
+    <div class="mode-tabs" id="mode-tabs">
+      <button class="mode-tab active" data-mode="name_to_country" data-i18n="mode_name_to_country">点名找国</button>
+      <button class="mode-tab" data-mode="capital_to_country" data-i18n="mode_capital_to_country">首都找国</button>
+      <button class="mode-tab" data-mode="outline_to_name" data-i18n="mode_outline_to_name">轮廓猜名</button>
+      <button class="mode-tab" data-mode="highlight_to_name" data-i18n="mode_highlight_to_name">高亮猜名</button>
+      <button class="mode-tab" data-mode="time_challenge" data-i18n="mode_time_challenge">限时挑战</button>
+    </div>
+  </div>
+  <div class="bar-right">
+    <div class="setting-group">
+      <label data-i18n="difficulty">难度</label>
+      <select id="difficulty-select">
+        <option value="easy" data-i18n="diff_easy">简单</option>
+        <option value="medium" selected data-i18n="diff_medium">中等</option>
+        <option value="hard" data-i18n="diff_hard">困难</option>
+      </select>
+    </div>
+    <div class="setting-group">
+      <label data-i18n="mode">模式</label>
+      <select id="mode-select">
+        <option value="normal" data-i18n="mode_normal">计分模式</option>
+        <option value="practice" data-i18n="mode_practice">练习模式</option>
+      </select>
+    </div>
+    <button id="btn-tooltip" class="btn-icon active" title="Toggle tooltip">💬</button>
+    <button id="btn-lang" class="btn-icon" title="Switch Language">中/EN</button>
+    <button id="btn-stats" class="btn-icon" title="Statistics">📊</button>
+  </div>
+</header>
+
+<!-- ========== Main Area ========== -->
+<main id="main-area">
+  <!-- Map Container -->
+  <div id="map-container">
+    <div id="map"></div>
+    <div id="map-loading" class="map-loading">
+      <div class="loading-spinner"></div>
+      <span>加载地图数据...</span>
+    </div>
+    <div id="map-overlay" class="hidden">
+      <div class="overlay-content">
+        <span class="overlay-text" data-i18n="click_map_hint">👆 点击地图上的目标国家</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Side Panel -->
+  <aside id="side-panel">
+    <!-- Question Area -->
+    <section id="question-area" class="panel-section">
+      <div id="question-prompt"></div>
+      <div id="question-content"></div>
+    </section>
+
+    <!-- Input Area (for text-based modes) -->
+    <section id="input-area" class="panel-section hidden">
+      <div class="input-wrapper">
+        <input type="text" id="country-input"
+               autocomplete="off"
+               data-i18n-placeholder="input_placeholder"
+               placeholder="输入国家名称...">
+        <div id="autocomplete-dropdown" class="autocomplete-dropdown hidden"></div>
+      </div>
+      <button id="btn-submit" class="btn-primary" data-i18n="submit">确认</button>
+    </section>
+
+    <!-- Feedback Area -->
+    <section id="feedback-area" class="panel-section hidden">
+      <div id="feedback-content"></div>
+      <button id="btn-next" class="btn-primary hidden" data-i18n="next">下一题</button>
+    </section>
+
+    <!-- Hints Area -->
+    <section id="hints-area" class="panel-section hidden">
+      <h3 data-i18n="hints_title">💡 提示</h3>
+      <div id="hints-content"></div>
+    </section>
+
+    <!-- Score Area -->
+    <section id="score-area" class="panel-section">
+      <div class="score-row">
+        <div class="score-item">
+          <span class="score-label" data-i18n="score">得分</span>
+          <span class="score-value" id="score-value">0</span>
+        </div>
+        <div class="score-item">
+          <span class="score-label" data-i18n="combo">连击</span>
+          <span class="score-value" id="combo-value">0</span>
+        </div>
+        <div class="score-item">
+          <span class="score-label" data-i18n="round">题数</span>
+          <span class="score-value" id="round-value">0/10</span>
+        </div>
+      </div>
+      <div id="timer-display" class="timer hidden">
+        ⏱ <span id="timer-value">60</span>s
+      </div>
+    </section>
+
+    <!-- Game Controls -->
+    <section id="controls-area" class="panel-section">
+      <button id="btn-start" class="btn-primary btn-large" data-i18n="start">开始游戏</button>
+      <button id="btn-end" class="btn-secondary hidden" data-i18n="end">结束游戏</button>
+    </section>
+  </aside>
+</main>
+
+<!-- ========== Stats Modal ========== -->
+<div id="stats-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <h2 data-i18n="stats_title">📊 游戏统计</h2>
+    <div id="stats-content"></div>
+    <button id="btn-close-stats" class="btn-secondary" data-i18n="close">关闭</button>
+  </div>
+</div>
+
+<!-- ========== Result Modal ========== -->
+<div id="result-modal" class="modal hidden">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <h2 data-i18n="result_title">🏆 游戏结束</h2>
+    <div id="result-content"></div>
+    <button id="btn-new-game" class="btn-primary" data-i18n="new_game">再来一局</button>
+  </div>
+</div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- App Scripts -->
+<script src="js/i18n.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/scoring.js"></script>
+<script src="js/hints.js"></script>
+<script src="js/map.js"></script>
+<script src="js/game.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
