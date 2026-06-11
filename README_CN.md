@@ -74,7 +74,7 @@
 ### 方法一：Python HTTP 服务器（推荐）
 
 ```bash
-cd D:\git_item\world-map-game
+cd world-map-game
 python -m http.server 8080
 ```
 
